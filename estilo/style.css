@@ -5,3 +5,49 @@ Paleta de cores:
 Verde: #49a09d
 lilas: #5f2c82
 */
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: #5f2c82;
+    width: 100vw;
+    height: 100vh;
+
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 450);
+
+    transition: width 0.3s, heigth 0.3s;
+}
+
+section#login > div#imagem{
+    background: #5f2c82 url(../imagem/pexels-earth-photart-2149767641-31710863\ \(1\).jpg);
+    height: 200px;
+    background-size: cover;
+   
+}
+section#login > div#formulario{
+    padding: 10px;
+    display: block;
+}
