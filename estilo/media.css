@@ -24,7 +24,7 @@
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     section#login{
-        width: 950px;
+        width: 1000px;
     }
     section#login > div#imagem{
         float: right;
@@ -41,14 +41,8 @@
     width: 40px;
     padding: 5px;
 }
-div.campo >input{
-    background-color: #7dfaf6d5;
-    font-size: 1em;
-    width: calc(100%-39px);
-    transform: translateY(-10px);
-    height: 100%;
-    border: 0px;
-    padding: 5px;
-    border-radius: 4px;
+div.campo > input{
+    padding: 10px;
 }
+
 }
