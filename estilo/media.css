@@ -35,4 +35,20 @@
         float: left;
         width: 30%;
     }
+    div.campo> span{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+div.campo >input{
+    background-color: #7dfaf6d5;
+    font-size: 1em;
+    width: calc(100%-39px);
+    transform: translateY(-10px);
+    height: 100%;
+    border: 0px;
+    padding: 5px;
+    border-radius: 4px;
+}
 }
